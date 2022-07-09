@@ -1,0 +1,2 @@
+User-Agent: *
+Sitemap: https://danielmatsuda.github.io/sitemap.xml

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on danielmatsuda</title>
+    <link>https://danielmatsuda.github.io/blog/</link>
+    <description>Recent content in Blogs on danielmatsuda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 08 Jul 2022 18:24:58 -0500</lastBuildDate><atom:link href="https://danielmatsuda.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Moved to Hugo-bearblog</title>
+      <link>https://danielmatsuda.github.io/moved-to-hugo-bearblog/</link>
+      <pubDate>Fri, 08 Jul 2022 18:24:58 -0500</pubDate>
+      
+      <guid>https://danielmatsuda.github.io/moved-to-hugo-bearblog/</guid>
+      <description>I prefer a more minimalist layout for my blog, and this new layout makes things simpler.</description>
+    </item>
+    
+    <item>
+      <title>(summary ver.) Analyzing 65,000 Japanese news articles with AWS</title>
+      <link>https://danielmatsuda.github.io/summary-ver.-analyzing-65000-japanese-news-articles-with-aws/</link>
+      <pubDate>Mon, 05 Jul 2021 18:45:07 -0500</pubDate>
+      
+      <guid>https://danielmatsuda.github.io/summary-ver.-analyzing-65000-japanese-news-articles-with-aws/</guid>
+      <description>I study Japanese, so I decided to create a Japanese word frequency list using news articles as the source data. To do this, I made a serverless ETL pipeline that processed 65,000 articles.
+This post briefly summarizes my project. You can find all the code in my Github repo. You can also read the longer version of this post here, where I explain my motivations, design decisions, and code in more detail.</description>
+    </item>
+    
+    <item>
+      <title>Japanese News Project</title>
+      <link>https://danielmatsuda.github.io/japanese-news-project/</link>
+      <pubDate>Fri, 02 Jul 2021 19:00:27 -0500</pubDate>
+      
+      <guid>https://danielmatsuda.github.io/japanese-news-project/</guid>
+      <description>I made a serverless ETL pipeline to record all the words from 65,000 Japanese news articles. Then, I found the most frequent 5,000 words and visualized them. This post explains why I made the pipeline, how I designed it, and how it works. You can find all the code in my Github repo.
+Table of contents Why analyze Japanese news articles? My project strategy Requirements Design Development: Finding articles Development: Sending articles to queue Development: Extracting and processing article text Development: Storing, aggregating, and exporting Storing words Aggregating and exporting words Results and next steps Conclusion Notes: Estimating costs Why analyze Japanese news articles?</description>
+    </item>
+    
+  </channel>
+</rss>
