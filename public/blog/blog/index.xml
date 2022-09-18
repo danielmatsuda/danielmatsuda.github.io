@@ -6,16 +6,7 @@
     <description>Recent content in blog on danielmatsuda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 08 Jul 2022 18:24:58 -0500</lastBuildDate><atom:link href="https://danielmatsuda.github.io/blog/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Moved to Hugo-bearblog</title>
-      <link>https://danielmatsuda.github.io/moved-to-hugo-bearblog/</link>
-      <pubDate>Fri, 08 Jul 2022 18:24:58 -0500</pubDate>
-      
-      <guid>https://danielmatsuda.github.io/moved-to-hugo-bearblog/</guid>
-      <description>I prefer a more minimalist layout for my blog, and this new layout makes things simpler.</description>
-    </item>
-    
+    <lastBuildDate>Mon, 05 Jul 2021 18:45:07 -0500</lastBuildDate><atom:link href="https://danielmatsuda.github.io/blog/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>(summary ver.) Analyzing 65,000 Japanese news articles with AWS</title>
       <link>https://danielmatsuda.github.io/summary-ver.-analyzing-65000-japanese-news-articles-with-aws/</link>

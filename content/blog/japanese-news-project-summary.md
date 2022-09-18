@@ -9,7 +9,7 @@ tags = ["blog", "AWS", "Common Crawl", "Python", "Japanese"]
 
 I study Japanese, so I decided to create a Japanese word frequency list using news articles as the source data. To do this, I made a serverless ETL pipeline that processed 65,000 articles. 
 
-This post briefly summarizes my project. You can find all the code in my [Github repo](https://github.com/danielmatsuda/japanese_news).  You can also read the longer version of this post [here](https://danielmatsuda.github.io/blog/2021/07/02/japanese_news.html), where I explain my motivations, design decisions, and code in more detail.
+This post briefly summarizes my project. You can find all the code in my [Github repo](https://github.com/danielmatsuda/japanese_news).  You can also read the longer version of this post [here](https://danielmatsuda.github.io/japanese-news-project/), where I explain my motivations, design decisions, and code in more detail.
 
 Technologies used: 
 - AWS (Lambda, DynamoDB, S3, Athena, SQS)
@@ -45,7 +45,7 @@ I chose AWS as my cloud provider for the data pipeline, due to its variety of se
 **4. The project must be coded in Python, and cost $10 or less**  
 The boto3 library allowed me to make API calls to AWS services with Python.  
 
-I estimated that the total cost of the batch job would be roughly $3.10 - see the [Notes section of the main blog post](https://danielmatsuda.github.io/blog/2021/07/02/japanese_news.html#notes-estimating-costs) for the calculations.  
+I estimated that the total cost of the batch job would be roughly $3.10 - see the [Notes section of the main blog post](https://danielmatsuda.github.io/japanese-news-project/#notes-estimating-costs) for the calculations.  
 
 Ultimately, the total cost of the project was 86 cents. My DynamoDB usage only cost 4 cents, and data transfer was $0. The biggest cost was 60 cents for EC2 - I temporarily left my Docker images in Cloud9, and got charged for storage until I moved them to ECR. 
   

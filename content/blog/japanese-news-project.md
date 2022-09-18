@@ -147,11 +147,7 @@ I deactivated the S3 event notification and [exported the table to S3](https://a
 
 > ```{"Item":{"uuid":{"S":"a422fdb4-b849-42bf-8d46-b0a4f861a19d"},"count":{"N":"1"},"word":{"S":"配慮"}}}```
 
-I had to register the table schema before I could query:  
-<script src="https://gist.github.com/danielmatsuda/85c18c479d3fd6aa1880d3c2b34e154b.js"></script>
-
-Then, I ran the aggregation query:  
-<script src="https://gist.github.com/danielmatsuda/2a53d5fe22f438b46b8c2df6eb56beda.js"></script>
+I had to [register the table schema](https://gist.github.com/danielmatsuda/85c18c479d3fd6aa1880d3c2b34e154b) before I could query. Then, I [ran the aggregation query](https://gist.github.com/danielmatsuda/2a53d5fe22f438b46b8c2df6eb56beda).  
 
 This stored the top 5,000 most frequently appearing words and their counts in S3. The results looked good, so the project was finished!  
 

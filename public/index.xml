@@ -6,16 +6,7 @@
     <description>Recent content on danielmatsuda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 08 Jul 2022 18:24:58 -0500</lastBuildDate><atom:link href="https://danielmatsuda.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Moved to Hugo-bearblog</title>
-      <link>https://danielmatsuda.github.io/moved-to-hugo-bearblog/</link>
-      <pubDate>Fri, 08 Jul 2022 18:24:58 -0500</pubDate>
-      
-      <guid>https://danielmatsuda.github.io/moved-to-hugo-bearblog/</guid>
-      <description>I prefer a more minimalist layout for my blog, and this new layout makes things simpler.</description>
-    </item>
-    
+    <lastBuildDate>Mon, 05 Jul 2021 18:45:07 -0500</lastBuildDate><atom:link href="https://danielmatsuda.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>(summary ver.) Analyzing 65,000 Japanese news articles with AWS</title>
       <link>https://danielmatsuda.github.io/summary-ver.-analyzing-65000-japanese-news-articles-with-aws/</link>
@@ -42,9 +33,8 @@ Table of contents Why analyze Japanese news articles? My project strategy Requir
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://danielmatsuda.github.io/about/</guid>
-      <description>About Hello! I&amp;rsquo;m a post-baccalaureate Computer Science student at Oregon State University. I&amp;rsquo;m interested in backend development.
-My first Bachelor&amp;rsquo;s degree was a BA in Asian Studies from Carleton College. Here, I was first exposed to programming in Python and R. After a short but unforgettable stint as a translator in rural Japan, I enrolled full-time at Oregon State to study computer science.
-Besides foreign languages and software, I also love modern hip-hop dance and baking cheesecake.</description>
+      <description>About Hello, I&amp;rsquo;m Daniel. I recently changed careers from Japanese translation to software development. In my new role as an engineer, I value the impact, constant learning, and collaboration afforded to me.
+Besides foreign languages and software, I also love modern hip-hop dance and reading.</description>
     </item>
     
   </channel>

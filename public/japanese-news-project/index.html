@@ -347,10 +347,7 @@ Table of contents Why analyze Japanese news articles? My project strategy Requir
 <blockquote>
 <p><code>{&quot;Item&quot;:{&quot;uuid&quot;:{&quot;S&quot;:&quot;a422fdb4-b849-42bf-8d46-b0a4f861a19d&quot;},&quot;count&quot;:{&quot;N&quot;:&quot;1&quot;},&quot;word&quot;:{&quot;S&quot;:&quot;配慮&quot;}}}</code></p>
 </blockquote>
-<p>I had to register the table schema before I could query:</p>
-<!-- raw HTML omitted -->
-<p>Then, I ran the aggregation query: </p>
-<!-- raw HTML omitted -->
+<p>I had to <a href="https://gist.github.com/danielmatsuda/85c18c479d3fd6aa1880d3c2b34e154b">register the table schema</a> before I could query. Then, I <a href="https://gist.github.com/danielmatsuda/2a53d5fe22f438b46b8c2df6eb56beda">ran the aggregation query</a>.</p>
 <p>This stored the top 5,000 most frequently appearing words and their counts in S3. The results looked good, so the project was finished! </p>
 <h1 id="results-and-next-steps">Results and next steps</h1>
 <p>For fun, here is a word cloud showing the top 50 most frequent words in the list:</p>

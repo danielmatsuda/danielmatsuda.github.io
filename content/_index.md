@@ -1,3 +1,3 @@
 # Home
 
-On hiatus.
+This is a small personal site to document my learning.

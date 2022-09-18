@@ -241,7 +241,7 @@ This post briefly summarizes my project. You can find all the code in my Github
 <content>
   <p><img src="/japanese_news/design.png" alt="My design"></p>
 <p>I study Japanese, so I decided to create a Japanese word frequency list using news articles as the source data. To do this, I made a serverless ETL pipeline that processed 65,000 articles.</p>
-<p>This post briefly summarizes my project. You can find all the code in my <a href="https://github.com/danielmatsuda/japanese_news">Github repo</a>.  You can also read the longer version of this post <a href="https://danielmatsuda.github.io/blog/2021/07/02/japanese_news.html">here</a>, where I explain my motivations, design decisions, and code in more detail.</p>
+<p>This post briefly summarizes my project. You can find all the code in my <a href="https://github.com/danielmatsuda/japanese_news">Github repo</a>.  You can also read the longer version of this post <a href="https://danielmatsuda.github.io/japanese-news-project/">here</a>, where I explain my motivations, design decisions, and code in more detail.</p>
 <p>Technologies used:</p>
 <ul>
 <li>AWS (Lambda, DynamoDB, S3, Athena, SQS)</li>
@@ -274,7 +274,7 @@ I chose AWS as my cloud provider for the data pipeline, due to its variety of se
 <p>&ldquo;Tokenizing&rdquo; a sentence means breaking it into individual words. Unlike in English, Japanese text doesn&rsquo;t separate words by spaces, and other features of the language complicate things further. To tokenize Japanese, I used an open source Python library called <a href="https://github.com/WorksApplications/SudachiPy">SudachiPy</a>.</p>
 <p><strong>4. The project must be coded in Python, and cost $10 or less</strong><br>
 The boto3 library allowed me to make API calls to AWS services with Python.</p>
-<p>I estimated that the total cost of the batch job would be roughly $3.10 - see the <a href="https://danielmatsuda.github.io/blog/2021/07/02/japanese_news.html#notes-estimating-costs">Notes section of the main blog post</a> for the calculations.</p>
+<p>I estimated that the total cost of the batch job would be roughly $3.10 - see the <a href="https://danielmatsuda.github.io/japanese-news-project/#notes-estimating-costs">Notes section of the main blog post</a> for the calculations.</p>
 <p>Ultimately, the total cost of the project was 86 cents. My DynamoDB usage only cost 4 cents, and data transfer was $0. The biggest cost was 60 cents for EC2 - I temporarily left my Docker images in Cloud9, and got charged for storage until I moved them to ECR.</p>
 <h1 id="design">Design</h1>
 <p>I needed a batch data pipeline that worked like this:
