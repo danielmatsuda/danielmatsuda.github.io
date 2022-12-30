@@ -49,13 +49,12 @@ Table of contents Why analyze Japanese news articles? My project strategy Requir
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://danielmatsuda.github.io/about/</link>
+      <title>Links</title>
+      <link>https://danielmatsuda.github.io/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://danielmatsuda.github.io/about/</guid>
-      <description>About Hello, I&amp;rsquo;m Daniel. I recently changed careers from Japanese translation to software development. In my new role as an engineer, I value the impact, constant learning, and collaboration afforded to me.
-Besides foreign languages and software, I also love modern hip-hop dance and reading.</description>
+      <guid>https://danielmatsuda.github.io/links/</guid>
+      <description>Links Github LinkedIn </description>
     </item>
     
   </channel>
